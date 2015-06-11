@@ -1,0 +1,40 @@
+body {
+  background-color: #eee;
+}
+
+img {
+  /*width:300px;*/
+  height:300px;
+}
+
+div {
+  float: left;
+}
+
+div .container {
+  width: 100%;
+  border: 0px;
+}
+
+div .item {
+  border: 1px #f07300 dashed;
+  text-align: center;
+  background-color: white;
+}
+
+h1 {
+  text-align: left;
+}
+
+hr {
+  border: 1px #f07300 dashed;
+  margin: 0px;
+}
+
+a:link {
+  color: #007CF0;
+}
+
+a:visited {
+  color: #7400F0;
+}

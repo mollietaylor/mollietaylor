@@ -1,0 +1,31 @@
+DONE:
+	Change gtg site to be what mollietaylor will be
+	Point mollietaylor.com to ASO via hover
+		https://www.hover.com/domain/gtg339g.com
+			nameserver 1: ns1.asmallorange.com
+			nameserver 2: ns2.asmallorange.com
+		https://www.hover.com/domain/gtg339g.com/forwards
+			resume link: https://rawgithub.com/mollietaylor/resume/master/resume.html
+			check mask; uncheck subdomain
+		https://www.hover.com/domain/gtg339g.com/dns
+			@	A		64.99.80.30
+			* 	A		64.99.80.30
+			mailCNAME	mail.hover.com.cust.hostedemail.com
+			@	MX		10 mx.hover.com.cust.hostedemail.com
+			www CNAME	ns1.asmallorange.com
+			* 	CNAME	ns1.asmallorange.com
+	Email ASO to change domain to mollietaylor.com
+		http://forums.asmallorange.com/topic/5847-can-i-change-my-domain-name/
+	Change blog URL on hover:
+		https://www.hover.com/domain/mollietaylor.com/forwards
+		https://www.hover.com/domain/mollietaylor.com/dns
+		www	CNAME	ghs.google.com
+		*	CNAME	ghs.google.com
+	Upload .htaccess file	
+	Change blog URL on blogger:
+		https://www.blogger.com/blogger.g?blogID=4112346421260087829#basicsettings
+
+
+After moving site:
+	Check all links to gtg339g.com (e.g. gtg339g.com/files/)
+	Fix links on mollietaylor.com/resume
