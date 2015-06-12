@@ -53,53 +53,29 @@ angular
   									 "span": {"col": 1, "row": 1},
   									 "background": "#f5f5f5"});
     	
-  	this.tiles.push({"icon": "",
+  	this.tiles.push({"icon": "googlemail-128.png",
   									 "title": "mollie.taylor@gmail.com",
   									 "link": "mailto:mollie.taylor@gmail.com",
   									 "span": {"col": 1, "row": 1},
-  									 "background": "green"});
+  									 "background": "#3F87F9"});
     	
-  	this.tiles.push({"icon": "",
+  	this.tiles.push({"icon": "Glyph_Logo_png.png",
   									 "title": "molliemtaylor",
   									 "link": "https://instagram.com/molliemtaylor/",
   									 "span": {"col": 1, "row": 1},
-  									 "background": "green"});
+  									 "background": "#241E20"});
     	
-  	this.tiles.push({"icon": "",
-  									 "title": "",
-  									 "link": "",
+  	this.tiles.push({"icon": "goodreads.jpg",
+  									 "title": "I've read 362 books over the last 13 years.",
+  									 "link": "https://www.goodreads.com/user/show/1409406-mollie-t",
   									 "span": {"col": 1, "row": 1},
-  									 "background": "green"});
+  									 "background": "#fff"});
     	
-  	this.tiles.push({"icon": "",
-  									 "title": "",
-  									 "link": "",
-  									 "span": {"col": 1, "row": 1},
-  									 "background": "green"});
-    	
-  	this.tiles.push({"icon": "",
-  									 "title": "",
-  									 "link": "",
-  									 "span": {"col": 1, "row": 1},
-  									 "background": "green"});
-    	
-  	this.tiles.push({"icon": "",
-  									 "title": "",
-  									 "link": "",
-  									 "span": {"col": 1, "row": 1},
-  									 "background": "green"});
-    	
-  	this.tiles.push({"icon": "",
-  									 "title": "",
-  									 "link": "",
-  									 "span": {"col": 1, "row": 1},
-  									 "background": "green"});
-    	
-  	this.tiles.push({"icon": "",
-  									 "title": "",
-  									 "link": "",
-  									 "span": {"col": 1, "row": 1},
-  									 "background": "green"});
+  	// this.tiles.push({"icon": "",
+  	// 								 "title": "",
+  	// 								 "link": "",
+  	// 								 "span": {"col": 1, "row": 1},
+  	// 								 "background": "green"});
 
     console.log(this.tiles);
   })

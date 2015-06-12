@@ -72,8 +72,17 @@
   width: 100%;
   text-align: center;
 }
+html,body {
+	background-color: #202020;
+	color: #fff;
+}
 md-grid-tile img {
 	/*width: 17vmin;*/
 	/*max-width: 120px;*/
 	max-width: 60%;
+}
+h1 {
+	width: 100%;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
 }

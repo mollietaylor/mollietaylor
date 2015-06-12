@@ -2,20 +2,16 @@
   <head>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,200' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body layout="column">
-    <md-toolbar layout="row">
-      <div class="md-toolbar-tools">
-        <md-button ng-click="toggleSidenav('left')" hide-gt-sm class="md-icon-button">
-          <md-icon aria-label="Menu" md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg"></md-icon>
-        </md-button>
-        <h1>Mollie Taylor</h1>
-      </div>
-    </md-toolbar>
+    <div class="md-toolbar-tools">
+      <h1>Mollie Taylor</h1>
+    </div>
     <div ng-controller="gridListDemoCtrl as vm" flex="" class="gridListdemoDynamicTiles" ng-app="MyApp">
-      <md-grid-list md-cols-sm="2" md-cols-md="3" md-cols-gt-md="8" md-row-height-gt-md="1:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="4px">
+      <md-grid-list md-cols-sm="2" md-cols-md="3" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="4px">
 
         <md-grid-tile ng-repeat="tile in vm.tiles" md-rowspan="{{tile.span.row}}" md-colspan="{{tile.span.col}}" md-colspan-sm="1" ng-style="{background: tile.background}" ng-src="{{tile.link}}">
           <img ng-src="icons/{{tile.icon}}">
